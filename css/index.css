@@ -1,5 +1,39 @@
+body {
+  font-family: helvetica, sans-serif;
+}
 .hero {
-  background-image:("resources/images/the-flatiron-building.png;")
+  background-image: url("../resources/images/the-flatiron-building.png");
    text-align: center;
    color: white;
+}
+.supporting{
+  text-align: center;
+}
+.footer{
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
+}
+.btn-nav{
+  font-size: 18px;
+  color: white;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
+.hero h1{
+  font-size: 70px;
+}
+#end{
+position: relative;
+margin-right: 70%;
+}
+.supporting p{
+  font-size: 14px;
+}
+.supporting h2{
+  font-size: 32px;
+}
+.supporting h3{
+  font-size: 23px;
 }
